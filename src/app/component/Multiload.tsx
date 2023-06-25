@@ -253,7 +253,7 @@ function GithubLink() {
                 <label htmlFor="repo-url" className="text-sm font-medium">Folder Path</label>
                 <input type="url" id="repo-branch" name="repo-branch" className="mx-2 border rounded-lg py-2 px-2 text-sm bg-gray-200 dark:bg-[#1c1a2b] focus:outline-none focus:ring-0 border-gray-700 focus:ring-gray-500 focus:ring-transparent" placeholder="docs/v2" required />
             </div>
-            <div className="mt-1 flex items-center justify-between"><label htmlFor="include-code-files" className="text-sm font-medium text-gray-100">Include only doc files (.md/.mdx/.rst)</label><select id="include-code-files" name="include-code-files" className="mx-2 border rounded-lg py-2 px-2 text-sm bg-gray-200 dark:bg-[#1c1a2b] focus:outline-none focus:ring-0 border-gray-700 focus:ring-gray-500 focus:ring-transparent"><option value="true">No</option><option value="false">Yes</option></select></div>
+            <div className="mt-1 flex items-center justify-between"><label htmlFor="include-code-files" className="text-sm font-medium">Include only doc files (.md/.mdx/.rst)</label><select id="include-code-files" name="include-code-files" className="mx-2 border rounded-lg py-2 px-2 text-sm bg-gray-200 dark:bg-[#1c1a2b] focus:outline-none focus:ring-0 border-gray-700 focus:ring-gray-500 focus:ring-transparent"><option value="true">No</option><option value="false">Yes</option></select></div>
         </div>
     )
 }
