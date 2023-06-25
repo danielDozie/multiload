@@ -235,7 +235,6 @@ function DriveLink() {
 }
 
 //write github logic here
-
 function GithubLink() {
     return (
         <div className='flex flex-col transition-all'>
@@ -247,7 +246,7 @@ function GithubLink() {
             <div className=" mt-3 text-sm text-gray-500">By default we collect all of the files from the repo</div>
             <div className="flex items-center justify-between mt-1">
                 <label htmlFor="repo-url" className="text-sm font-medium">Branch</label>
-                <input type="url" id="repo-branch" name="repo-branch" className="mx-2 border rounded-lg py-2 px-2 text-sm bg-gray-200 dark:bg-[#1c1a2b] focus:outline-none focus:ring-0 border-gray-700 focus:ring-gray-500 focus:ring-transparent" placeholder="main" required  />
+                <input type="url" id="repo-branch" name="repo-branch" className="mx-2 border rounded-lg py-2 px-2 text-sm bg-gray-200 dark:bg-[#1c1a2b] focus:outline-none focus:ring-0 border-gray-700 focus:ring-gray-500 focus:ring-transparent" placeholder="main" required />
             </div>
             <div className="mt-1 flex items-center justify-between">
                 <label htmlFor="repo-url" className="text-sm font-medium">Folder Path</label>
